@@ -1,0 +1,125 @@
+@media screen and (max-width: 422px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+        background-color: rgb(228, 220, 220);
+        display: flexbox;
+        text-align: center;
+        font-family: 'Hanken Grotesk', sans-serif;
+        
+        
+    }
+    main{
+        height: 90vw;
+        width: 100%;
+        background-image: linear-gradient(to bottom, #7857ff, #694cf9, #5941f4, #4736ee, #2e2be9);
+        border-radius: 0  0 35px  35px;
+        color: white;
+        display: flexbox;
+        align-items: center;
+        align-content: center;
+        
+    }
+    .resultado{
+        padding-top: 20px;
+        font-size: 18px;
+        color: rgb(184, 177, 177);
+    }
+    .circulo{
+        display: inline-block;
+        
+        background-image: linear-gradient(to top, #6545e7, #694cf9, #5941f4, #4736ee, #2e2be9);
+
+        padding: 15px;
+        margin: 15px;
+        height: 120px;
+        width: 120px;
+        
+        border-radius: 50%;
+        font-size: 70px;
+        font-weight: 900;
+       
+    }
+    .of{
+        margin: -50px;
+        color: rgb(184, 177, 177);
+        font-size: 20px;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .great{
+        margin-top: 80px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .texto{
+        margin: 25px;
+        color: rgb(184, 177, 177);
+        font-size: 18px;
+    }
+    .sumario{
+        display: flexbox;
+        text-align: left;
+        margin: 25px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .info{
+        padding-left: 15px;
+        
+        height: 59px;
+        margin: 25px 20px 15px 20px;
+        background-color: hsl(241, 100%, 89%);
+        display: flex;
+        align-content: center;
+        align-items: center;
+        border-radius: 10px;
+        
+    }
+    
+    #react{
+        
+        font-weight: bold;
+        color: red;
+        background-color: rgba(255, 0, 0, 0.038);
+    }
+    #memo{
+        font-weight: bold;
+        color: rgb(91, 91, 17);
+        background-color: rgba(255, 255, 0, 0.078);
+    }
+    #verb{
+        font-weight: bold;
+        color: green;
+        background-color: rgba(0, 128, 0,0.078);
+    }
+    #visual{
+        font-weight: bold;
+        color: rgb(43, 17, 91);
+        background-color: rgba(43, 17, 91, 0.078);
+    }
+    img{
+        padding-right: 10px;
+    }
+    button{
+        color:white;
+       background-color: #242437;
+        height: 50px;
+        width: 350px;
+        border-radius: 25px;
+        margin: 15px 20px 15px 20px;
+    }
+   
+    .valor{
+       
+        width: 100px;
+       
+        margin-left: 180px;
+        color: black;
+        font-weight: bold;
+    }
+    .attribution{
+        margin-top: 10px;
+    }
+
+}
